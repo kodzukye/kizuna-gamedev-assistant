@@ -1,0 +1,16 @@
+# Exclude dev artifacts and secrets from Docker build context
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+!.env.example
+.venv
+venv
+.cache
+.pytest_cache/
+dist
+build
+.git
+.gitignore

@@ -1,0 +1,18 @@
+# Exclude dev artifacts and secrets from Docker build context
+node_modules
+.dist
+build
+.cache
+.parcel-cache
+.svelte-kit
+.next
+out
+.vitepress
+.vite
+coverage
+*.log
+.env
+.env.*
+!.env.example
+.git
+.gitignore
